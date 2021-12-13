@@ -1,0 +1,51 @@
+.card{
+    margin-top: 20px;
+}
+.card-body{
+    background-color: saddlebrown;
+    color: bisque;
+    text-align: center;
+}
+@media (max-width: 992px){
+    .welcome h3{
+        padding: 50px;
+      
+    }
+    .about p{
+        font-size: 17px;
+    }
+     .social i{
+    
+    font-size:15px;
+} 
+}
+@media (max-width: 768px){
+  welcome h3{
+        padding: 20px;
+        padding-top: 50px;
+    }
+   
+   .about p{
+        font-size: 13px;
+    }
+     .social i{
+    
+    font-size:13px;
+} 
+   
+}
+@media (max-width: 576px){
+   welcome h3{
+       font-size: 15px;
+        padding: 30px;
+  
+    }
+    .about p{
+        font-size: 11px;
+        padding-top: -50px;
+    }
+    .social i{
+
+font-size:11px;
+}
+}
